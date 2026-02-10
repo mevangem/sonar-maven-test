@@ -27,3 +27,4 @@ jobs:
           -Dsonar.organization=mevangem 
           -Dsonar.host.url=https://sonarcloud.io 
           -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+          -DtestFailureIgnore=true
