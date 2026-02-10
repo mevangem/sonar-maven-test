@@ -12,7 +12,7 @@ public class App {
         App app = new App();
 		int password = 1234;
         app.processData(null); // This is safe now
-		app().criticalFailures();
+		app.criticalFailures();
     }
 
     public void processData(List<String> data) {
