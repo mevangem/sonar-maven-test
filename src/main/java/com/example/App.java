@@ -9,6 +9,8 @@ public class App {
 
     public static void main(String[] args) {
         App app = new App();
+
+        int newproblem = 1234; // Testing a new github action execution and problem propagation
         
         // We call this safely to avoid crashing the Maven Test phase
         app.processData(null); 
